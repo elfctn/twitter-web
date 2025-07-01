@@ -17,7 +17,9 @@ Axios
 ✅ Prerequisites
 Node.js v18.x or higher
 
-## npm
+npm
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Twitter Klonu Frontend
 Bu proje, Twitter Klonu API’si için geliştirilmiş işlevsel bir web arayüzüdür. React ve Vite ile geliştirilmiş, Tailwind CSS ile modern bir şekilde stillendirilmiştir. Kullanıcı kaydı, giriş, tweet atma ve içerikle etkileşim gibi özellikler sunar.
