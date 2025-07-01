@@ -3,7 +3,8 @@ import axios from "axios";
 
 // API'mizin temel URL'i
 const API_URL = "http://localhost:3000";
-//
+/
+
 // =================================================================
 // 1. API Servisi: Tüm backend isteklerini yöneten merkezi bir yapı
 // =================================================================
@@ -19,7 +20,7 @@ const createApiClient = (token) => {
 // 2. Yardımcı Bileşenler (UI Parçaları)
 // =================================================================
 
-// Basit bir bildirim (Toast) bileşeni
+//Toast
 const Toast = ({ message, type, onDismiss }) => {
   useEffect(() => {
     const timer = setTimeout(onDismiss, 3000);
