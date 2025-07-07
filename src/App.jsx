@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 
 // API'mizin temel URL'i
-const API_URL = "https://twitter-api-ew7q.onrender.com";
+const API_URL = "http://localhost:3000";
 
 // =================================================================
 // 1. API Servisi: Tüm backend isteklerini yöneten merkezi bir yapı
