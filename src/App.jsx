@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 
 // API'mizin temel URL'i
-const API_URL = "http://localhost:3000";
+const API_URL = "https://twitter-api-ew7q.onrender.com";
 
 // =================================================================
 // 1. API Servisi: Tüm backend isteklerini yöneten merkezi bir yapı
@@ -290,7 +290,7 @@ const TweetCard = ({ tweet, onAction, currentUsername }) => {
 const HomePage = ({ onNavigate }) => (
   <div className="text-center">
     <h1 className="text-5xl font-bold text-slate-800 mb-4">
-      Twitter Klonuna Hoş Geldin
+      @elfctn - Twitter(FullStack)
     </h1>
     <p className="text-slate-600 mb-8">
       Projeyi test etmek için kayıt ol veya giriş yap.
