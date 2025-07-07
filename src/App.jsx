@@ -290,7 +290,7 @@ const TweetCard = ({ tweet, onAction, currentUsername }) => {
 const HomePage = ({ onNavigate }) => (
   <div className="text-center">
     <h1 className="text-5xl font-bold text-slate-800 mb-4">
-      @elfctn - Twitter(FullStack)
+      @elfctn - Twitter
     </h1>
     <p className="text-slate-600 mb-8">
       Projeyi test etmek için kayıt ol veya giriş yap.
